@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="627.0" prefWidth="743.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutY="2.0" prefHeight="627.0" prefWidth="741.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Edit goals" textAlignment="CENTER" wrappingWidth="741.7294921875">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" top="30.0" />
+               </VBox.margin>
+            </Text>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="124.0" text="Prot (g)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="protTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="55.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  Carb (g)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="carbTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="123.0" text="Fat (g)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fatTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="55.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  Fiber (g)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fiberTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="120.0" text="Sugar (g)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="sugarTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="55.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  VitB12 (µg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vitB12TextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="120.0" text="VitD (µg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vitDTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="55.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  VitA (µg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vitATextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="120.0" text="VitC (mg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vitCTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="55.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  VitE (mg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="vitETextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="162.0" text="Calcium (mg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="calciumTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  Iodine (µg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="iodineTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="141.0" text="Iron (mg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="ironTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Label prefHeight="30.0" prefWidth="154.0" text="  Zinc (mg)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="zincTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
+               <children>
+                  <Label prefHeight="30.0" prefWidth="193.0" text="Calories (Cal)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Label>
+                  <TextField fx:id="caloriesTextField" prefHeight="26.0" prefWidth="115.0">
+                     <HBox.margin>
+                        <Insets left="250.0" />
+                     </HBox.margin>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="741.0">
+               <children>
+                  <Button fx:id="saveBtn" maxHeight="-Infinity" maxWidth="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="26.0" prefWidth="115.0" text="Save">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
