@@ -8,6 +8,7 @@ import controller.BaseController;
 import controller.ChooseAccountController;
 import controller.EditGoalsController;
 import controller.ListFoodsController;
+import controller.MainWindowController;
 import controller.RecordsController;
 import controller.RegisterFoodController;
 import controller.SetUpNewProfileController;
@@ -23,11 +24,11 @@ public class ViewFactory {
 		this.mealManager = mealManager;
 	}
 //
-//	public void showMainWindow() {
-//		BaseController controller = new MainWindowController(mealManager, this, "MainWindow.fxml");
-//		Stage stage = initializeStage(controller);
-//		stage.setMaximized(true);
-//	}
+	public void showMainWindow() {
+		BaseController controller = new MainWindowController(mealManager, this, "MainWindow.fxml");
+		Stage stage = initializeStage(controller);
+		stage.setMaximized(true);
+	}
 
 	public void showChooseAccount() {
 		BaseController controller = new ChooseAccountController(mealManager, this, "ChooseAccount.fxml");

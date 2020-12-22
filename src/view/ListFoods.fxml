@@ -7,16 +7,16 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="748.0" style="-fx-background-color: #A8DADC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox alignment="CENTER" layoutX="91.0" layoutY="22.0" prefHeight="39.0" prefWidth="657.0" spacing="30.0" AnchorPane.leftAnchor="91.0" AnchorPane.rightAnchor="91.0" AnchorPane.topAnchor="22.0">
          <children>
-            <Button fx:id="macroBtn" mnemonicParsing="false" text="Macro">
+            <Button fx:id="macroBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Macro">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="microBtn" mnemonicParsing="false" text="Micro">
+            <Button fx:id="microBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Micro">
                <font>
                   <Font size="17.0" />
                </font>
@@ -25,31 +25,31 @@
       </HBox>
       <HBox fx:id="nutrientsHBox" alignment="CENTER" layoutX="18.0" layoutY="128.0" prefHeight="352.0" prefWidth="730.0" spacing="30.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="100.0">
          <children>
-            <TableView fx:id="macroTableView" prefHeight="257.0" prefWidth="417.0" HBox.hgrow="ALWAYS">
+            <TableView fx:id="macroTableView" prefHeight="257.0" prefWidth="417.0" stylesheets="@style.css" HBox.hgrow="ALWAYS">
                <columns>
-                  <TableColumn fx:id="macroFoodTableColumn" prefWidth="120.0" text="Food" />
-                  <TableColumn fx:id="macroPortionTableColumn" prefWidth="120.0" text="Portion" />
-                  <TableColumn fx:id="caloriesTableColumn" prefWidth="120.0" text="Calories" />
-                  <TableColumn fx:id="proteinTableColumn" prefWidth="120.0" text="Protein" />
-                  <TableColumn fx:id="carbTableColumn" prefWidth="106.0" text="Carb" />
-                  <TableColumn fx:id="fatTableColumn" prefWidth="91.0" text="Fat" />
-                  <TableColumn fx:id="fiberTableColumn" prefWidth="133.0" text="Fiber" />
-                  <TableColumn fx:id="sugarTableColumn" prefWidth="133.0" text="Sugar" />
+                  <TableColumn fx:id="macroFoodTableColumn" prefWidth="150.0" text="Food" />
+                  <TableColumn fx:id="macroPortionTableColumn" prefWidth="150.0" text="Portion" />
+                  <TableColumn fx:id="caloriesTableColumn" prefWidth="150.0" text="Calories" />
+                  <TableColumn fx:id="proteinTableColumn" prefWidth="150.0" text="Protein" />
+                  <TableColumn fx:id="carbTableColumn" prefWidth="150.0" text="Carb" />
+                  <TableColumn fx:id="fatTableColumn" prefWidth="150.0" text="Fat" />
+                  <TableColumn fx:id="fiberTableColumn" prefWidth="150.0" text="Fiber" />
+                  <TableColumn fx:id="sugarTableColumn" prefWidth="150.0" text="Sugar" />
                </columns>
             </TableView>
-            <TableView fx:id="microTableView" prefHeight="266.0" prefWidth="451.0" HBox.hgrow="ALWAYS">
+            <TableView fx:id="microTableView" prefHeight="266.0" prefWidth="451.0" stylesheets="@style.css" HBox.hgrow="ALWAYS">
                <columns>
-                  <TableColumn fx:id="microFoodTableColumn" minWidth="0.0" prefWidth="100.0" text="Food" />
-                  <TableColumn fx:id="microPortionTableColumn" minWidth="0.0" prefWidth="100.0" text="Portion" />
-                  <TableColumn fx:id="vitB12TableColumn" prefWidth="93.0" text="Vit B12" />
-                  <TableColumn fx:id="vitDTableColumn" minWidth="0.0" prefWidth="67.0" text="Vit D" />
-                  <TableColumn fx:id="vitATableColumn" prefWidth="100.0" text="Vit A" />
-                  <TableColumn fx:id="vitCTableColumn" prefWidth="81.0" text="Vit C" />
-                  <TableColumn fx:id="vitETableColumn" prefWidth="100.0" text="Vit E" />
-                  <TableColumn fx:id="calciumTableColumn" prefWidth="100.0" text="Calcium" />
-                  <TableColumn fx:id="iodineTableColumn" prefWidth="100.0" text="Iodine" />
-                  <TableColumn fx:id="ironTableColumn" prefWidth="100.0" text="Iron" />
-                  <TableColumn fx:id="zincTableColumn" prefWidth="100.0" text="Zinc" />
+                  <TableColumn fx:id="microFoodTableColumn" minWidth="0.0" prefWidth="150.0" text="Food" />
+                  <TableColumn fx:id="microPortionTableColumn" minWidth="0.0" prefWidth="150.0" text="Portion" />
+                  <TableColumn fx:id="vitB12TableColumn" prefWidth="150.0" text="Vit B12" />
+                  <TableColumn fx:id="vitDTableColumn" minWidth="0.0" prefWidth="150.0" text="Vit D" />
+                  <TableColumn fx:id="vitATableColumn" prefWidth="150.0" text="Vit A" />
+                  <TableColumn fx:id="vitCTableColumn" prefWidth="150.0" text="Vit C" />
+                  <TableColumn fx:id="vitETableColumn" prefWidth="150.0" text="Vit E" />
+                  <TableColumn fx:id="calciumTableColumn" prefWidth="150.0" text="Calcium" />
+                  <TableColumn fx:id="iodineTableColumn" prefWidth="150.0" text="Iodine" />
+                  <TableColumn fx:id="ironTableColumn" prefWidth="150.0" text="Iron" />
+                  <TableColumn fx:id="zincTableColumn" prefWidth="150.0" text="Zinc" />
                </columns>
             </TableView>
          </children>

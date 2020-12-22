@@ -4,7 +4,6 @@ module AlaGym {
 	requires javafx.graphics;
 	requires javafx.web;
 	requires javafx.base;
-	requires mysql.connector.java;
 	requires java.sql;
 
 	opens application;

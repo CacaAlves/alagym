@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="532.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="532.0" prefWidth="764.0" style="-fx-background-color: #A8DADC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="26.0" prefHeight="62.0" prefWidth="717.0" text="Set up account" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
          <font>
@@ -26,7 +26,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="nameTextField" prefHeight="26.0" prefWidth="504.0">
+                  <TextField fx:id="nameTextField" prefHeight="26.0" prefWidth="504.0" style="-fx-background-color: white;">
                      <HBox.margin>
                         <Insets left="35.0" />
                      </HBox.margin>
@@ -43,7 +43,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="ageTextField" prefHeight="26.0" prefWidth="504.0">
+                  <TextField fx:id="ageTextField" prefHeight="26.0" prefWidth="504.0" style="-fx-background-color: white;">
                      <HBox.margin>
                         <Insets />
                      </HBox.margin>
@@ -60,7 +60,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="weightTextField" prefHeight="26.0" prefWidth="502.0">
+                  <TextField fx:id="weightTextField" prefHeight="26.0" prefWidth="502.0" style="-fx-background-color: white;">
                      <HBox.margin>
                         <Insets />
                      </HBox.margin>
@@ -74,7 +74,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="heightTextField" prefHeight="26.0" prefWidth="502.0">
+                  <TextField fx:id="heightTextField" prefHeight="26.0" prefWidth="502.0" style="-fx-background-color: white;">
                      <HBox.margin>
                         <Insets />
                      </HBox.margin>
@@ -88,7 +88,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <ChoiceBox fx:id="genreChoiceBox" prefHeight="26.0" prefWidth="227.0" />
+                  <ChoiceBox fx:id="genreChoiceBox" prefHeight="26.0" prefWidth="227.0" styleClass="button-blue" stylesheets="@style.css" />
                </children>
             </HBox>
             <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
@@ -98,7 +98,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <ChoiceBox fx:id="goalChoiceBox" prefHeight="26.0" prefWidth="227.0" />
+                  <ChoiceBox fx:id="goalChoiceBox" prefHeight="26.0" prefWidth="227.0" styleClass="button-blue" stylesheets="@style.css" />
                </children>
             </HBox>
             <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
@@ -108,7 +108,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Button fx:id="choosePhotoButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="227.0" text="Select file" />
+                  <Button fx:id="choosePhotoButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="227.0" styleClass="button-blue" stylesheets="@style.css" text="Select file" />
                </children>
             </HBox>
             <HBox alignment="CENTER" prefHeight="45.0" prefWidth="749.0">
@@ -118,7 +118,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Button fx:id="saveBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="203.0" text="Save">
+                  <Button fx:id="saveBtn" mnemonicParsing="false" prefHeight="45.0" prefWidth="203.0" styleClass="button-blue" stylesheets="@style.css" text="Save">
                      <font>
                         <Font size="18.0" />
                      </font>

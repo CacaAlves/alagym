@@ -29,7 +29,7 @@ CREATE TABLE Profile(
     profile_id INTEGER AUTO_INCREMENT,
     name VARCHAR(40) NOT NULL,
     age INTEGER NOT NULL,
-    biological_genre CHAR NOT NULL,
+    biological_genre VARCHAR(1) NOT NULL,
     weight FLOAT NOT NULL,
     height FLOAT NOT NULL,
     profile_img_path VARCHAR(500) NOT NULL,
@@ -60,20 +60,13 @@ CREATE TABLE MealRecord(
     FOREIGN KEY (profile_id) REFERENCES Profile(profile_id) ON DELETE CASCADE
 );
 
-CREATE TABLE Meal(
-    meal_id INTEGER AUTO_INCREMENT,
-    meal_record_id INTEGER, 
-    meal_type VARCHAR(9) NOT NULL,
-    PRIMARY KEY(meal_id),
-    FOREIGN KEY (meal_record_id) REFERENCES MealRecord(meal_record_id) ON DELETE CASCADE    
-);
-
 CREATE TABLE MealFood(
     meal_food_id INTEGER AUTO_INCREMENT,
-    meal_id INTEGER,
+    meal_record_id INTEGER,
     food_id INTEGER,
+    meal_type VARCHAR(9) NOT NULL,
     quantity FLOAT NOT NULL,
     PRIMARY KEY (meal_food_id),
-    FOREIGN KEY (meal_id) REFERENCES Meal(meal_id) ON DELETE CASCADE,
+    FOREIGN KEY (meal_record_id) REFERENCES MealRecord(meal_record_id) ON DELETE CASCADE,
     FOREIGN KEY (food_id) REFERENCES Food(food_id) ON DELETE CASCADE
 );

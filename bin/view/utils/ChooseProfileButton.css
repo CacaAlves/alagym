@@ -1,0 +1,7 @@
+.chooseProfileButton {
+	-fx-background-color: #f1faee;
+}
+
+.chooseProfileButton:hover {
+	-fx-background-color: white;
+}

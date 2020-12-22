@@ -8,31 +8,31 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="803.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="803.0" style="-fx-background-color: #A8DADC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox alignment="CENTER" layoutX="178.0" prefHeight="82.0" prefWidth="448.0" spacing="15.0" AnchorPane.leftAnchor="178.0" AnchorPane.rightAnchor="177.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Button fx:id="breakfastBtn" mnemonicParsing="false" text="Breakfast">
+            <Button fx:id="breakfastBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Breakfast">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="lunchBtn" mnemonicParsing="false" text="Lunch">
+            <Button fx:id="lunchBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Lunch">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="dinnerBtn" mnemonicParsing="false" text="Dinner">
+            <Button fx:id="dinnerBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Dinner">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="snacksBtn" mnemonicParsing="false" text="Snacks">
+            <Button fx:id="snacksBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Snacks">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="totalBtn" mnemonicParsing="false" text="Total">
+            <Button fx:id="totalBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Total">
                <font>
                   <Font size="16.0" />
                </font>
@@ -41,12 +41,12 @@
       </HBox>
       <HBox alignment="CENTER" layoutX="91.0" layoutY="102.0" prefHeight="39.0" prefWidth="657.0" spacing="30.0" AnchorPane.leftAnchor="91.0" AnchorPane.rightAnchor="91.0" AnchorPane.topAnchor="102.0">
          <children>
-            <Button fx:id="macroBtn" mnemonicParsing="false" text="Macro">
+            <Button fx:id="macroBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Macros">
                <font>
                   <Font size="18.0" />
                </font>
             </Button>
-            <Button fx:id="microBtn" mnemonicParsing="false" text="Micro">
+            <Button fx:id="microBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Micros">
                <font>
                   <Font size="17.0" />
                </font>
@@ -54,44 +54,44 @@
             <DatePicker fx:id="datePicker" />
          </children>
       </HBox>
-      <HBox fx:id="nutrientsHBox" alignment="CENTER" layoutX="18.0" layoutY="216.0" prefHeight="381.0" prefWidth="767.0" spacing="30.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="216.0">
-         <children>
-            <TableView fx:id="macroTableView" prefHeight="257.0" prefWidth="417.0" HBox.hgrow="ALWAYS">
-               <columns>
-                  <TableColumn fx:id="macroFoodTableColumn" prefWidth="120.0" text="Food" />
-                  <TableColumn fx:id="macroPortionTableColumn" prefWidth="120.0" text="Portion" />
-                  <TableColumn fx:id="caloriesTableColumn" prefWidth="120.0" text="Calories" />
-                  <TableColumn fx:id="proteinTableColumn" prefWidth="120.0" text="Protein" />
-                  <TableColumn fx:id="carbTableColumn" prefWidth="106.0" text="Carb" />
-                  <TableColumn fx:id="fatTableColumn" prefWidth="91.0" text="Fat" />
-                  <TableColumn fx:id="fiberTableColumn" prefWidth="133.0" text="Fiber" />
-                  <TableColumn fx:id="sugarTableColumn" prefWidth="133.0" text="Sugar" />
-               </columns>
-            </TableView>
-            <TableView fx:id="microTableView" prefHeight="266.0" prefWidth="451.0" HBox.hgrow="ALWAYS">
-               <columns>
-                  <TableColumn fx:id="microFoodTableColumn" minWidth="0.0" prefWidth="100.0" text="Food" />
-                  <TableColumn fx:id="microPortionTableColumn" minWidth="0.0" prefWidth="100.0" text="Portion" />
-                  <TableColumn fx:id="vitB12TableColumn" prefWidth="93.0" text="Vit B12" />
-                  <TableColumn fx:id="vitDTableColumn" minWidth="0.0" prefWidth="67.0" text="Vit D" />
-                  <TableColumn fx:id="vitATableColumn" prefWidth="100.0" text="Vit A" />
-                  <TableColumn fx:id="vitCTableColumn" prefWidth="81.0" text="Vit C" />
-                  <TableColumn fx:id="vitETableColumn" prefWidth="100.0" text="Vit E" />
-                  <TableColumn fx:id="calciumTableColumn" prefWidth="100.0" text="Calcium" />
-                  <TableColumn fx:id="iodineTableColumn" prefWidth="100.0" text="Iodine" />
-                  <TableColumn fx:id="ironTableColumn" prefWidth="100.0" text="Iron" />
-                  <TableColumn fx:id="zincTableColumn" prefWidth="100.0" text="Zinc" />
-               </columns>
-            </TableView>
-         </children>
-      </HBox>
       <HBox alignment="CENTER" layoutX="73.0" layoutY="154.0" prefHeight="39.0" prefWidth="657.0" spacing="30.0" AnchorPane.leftAnchor="73.0" AnchorPane.rightAnchor="73.0">
          <children>
-            <Button fx:id="deleteAllRecordsBtn" mnemonicParsing="false" text="Delete all records (except today's)">
+            <Button fx:id="deleteAllRecordsBtn" mnemonicParsing="false" styleClass="button-blue" stylesheets="@style.css" text="Delete all records (except today's)">
                <font>
                   <Font size="17.0" />
                </font>
             </Button>
+         </children>
+      </HBox>
+      <HBox fx:id="nutrientsHBox" alignment="CENTER" layoutX="18.0" layoutY="216.0" prefHeight="381.0" prefWidth="767.0" spacing="30.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="18.0" AnchorPane.topAnchor="216.0">
+         <children>
+            <TableView fx:id="macroTableView" prefHeight="257.0" prefWidth="417.0" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+               <columns>
+                  <TableColumn fx:id="macroFoodTableColumn" prefWidth="150.0" text="Food" />
+                  <TableColumn fx:id="macroPortionTableColumn" prefWidth="150.0" text="Portion" />
+                  <TableColumn fx:id="caloriesTableColumn" prefWidth="150.0" text="Calories" />
+                  <TableColumn fx:id="proteinTableColumn" prefWidth="150.0" text="Protein" />
+                  <TableColumn fx:id="carbTableColumn" prefWidth="150.0" text="Carb" />
+                  <TableColumn fx:id="fatTableColumn" prefWidth="150.0" text="Fat" />
+                  <TableColumn fx:id="fiberTableColumn" prefWidth="150.0" text="Fiber" />
+                  <TableColumn fx:id="sugarTableColumn" prefWidth="150.0" text="Sugar" />
+               </columns>
+            </TableView>
+            <TableView fx:id="microTableView" prefHeight="266.0" prefWidth="451.0" stylesheets="@style.css" HBox.hgrow="ALWAYS">
+               <columns>
+                  <TableColumn fx:id="microFoodTableColumn" minWidth="0.0" prefWidth="150.0" text="Food" />
+                  <TableColumn fx:id="microPortionTableColumn" minWidth="0.0" prefWidth="150.0" text="Portion" />
+                  <TableColumn fx:id="vitB12TableColumn" prefWidth="150.0" text="Vit B12" />
+                  <TableColumn fx:id="vitDTableColumn" minWidth="0.0" prefWidth="150.0" text="Vit D" />
+                  <TableColumn fx:id="vitATableColumn" prefWidth="150.0" text="Vit A" />
+                  <TableColumn fx:id="vitCTableColumn" prefWidth="150.0" text="Vit C" />
+                  <TableColumn fx:id="vitETableColumn" prefWidth="150.0" text="Vit E" />
+                  <TableColumn fx:id="calciumTableColumn" prefWidth="150.0" text="Calcium" />
+                  <TableColumn fx:id="iodineTableColumn" prefWidth="150.0" text="Iodine" />
+                  <TableColumn fx:id="ironTableColumn" prefWidth="150.0" text="Iron" />
+                  <TableColumn fx:id="zincTableColumn" prefWidth="150.0" text="Zinc" />
+               </columns>
+            </TableView>
          </children>
       </HBox>
    </children>

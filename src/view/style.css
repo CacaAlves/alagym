@@ -1,0 +1,61 @@
+.button {
+	-fx-background-color: white;
+}
+
+.button:hover {
+	-fx-background-color: #90E0EF;
+}
+
+.button-blue {
+	-fx-background-color: white;
+}
+
+.button-blue:hover {
+	-fx-background-color: #457B9D;
+}
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .text {
+	-fx-fill: black;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-view .column-header {
+	-fx-background-color: #F1FAEE;
+}
+
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+	-fx-background-color: #F1FAEE;
+}
+
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+    -fx-font-size: 18;
+}
+
+.table-row-cell:odd{
+    -fx-background-color: #f3f3f3;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell:even{
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+
+
